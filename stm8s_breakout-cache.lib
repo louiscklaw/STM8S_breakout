@@ -1,0 +1,140 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# customized_power_VCC
+#
+DEF customized_power_VCC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "customized_power_VCC" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VCC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# sz_jlc_capacitor_10uF(106),±10%,6.3V,0805,C318698
+#
+DEF sz_jlc_capacitor_10uF(106),±10%,6.3V,0805,C318698 U 0 10 N N 1 F N
+F0 "U" 10 70 50 H V L CNN
+F1 "sz_jlc_capacitor_10uF(106),±10%,6.3V,0805,C318698" 50 -100 50 H V L CNN
+F2 "w_smd_cap:c_0805" 0 -1000 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "C318698" 0 -500 50 H I C CNN "LCSC_Part"
+F5 "10uF(106),±10%,6.3V,0805,C318698" 50 -200 50 H I L CNN "MFR_Part"
+F6 "电容_贴片电容" 0 -600 50 H I C CNN "Second Category"
+F7 "0805" 0 -800 50 H I C CNN "Package"
+F8 "2" 0 -1100 50 H I C CNN "Solder Joint"
+F9 "SAMSUNG 三星" 0 -700 50 H I C CNN "Manufacturer"
+F10 "扩展库" 0 -900 50 H I C CNN "Library Type"
+F11 "10uF(106) ±10% 6.3V" 0 -900 50 H I C CNN "Library Type"
+$FPLIST
+ *0805*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# sz_jlc_capacitor_680nF(684),±10%,6.3V,X5R,0402,C34850
+#
+DEF sz_jlc_capacitor_680nF(684),±10%,6.3V,X5R,0402,C34850 U 0 10 N N 1 F N
+F0 "U" 10 70 50 H V L CNN
+F1 "sz_jlc_capacitor_680nF(684),±10%,6.3V,X5R,0402,C34850" 50 -100 50 H V L CNN
+F2 "w_smd_cap:c_0402" 0 -1000 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "C34850" 0 -500 50 H I C CNN "LCSC_Part"
+F5 "680nF(684),±10%,6.3V,X5R,0402,C34850" 50 -200 50 H I L CNN "MFR_Part"
+F6 "电容_贴片电容" 0 -600 50 H I C CNN "Second Category"
+F7 "0402" 0 -800 50 H I C CNN "Package"
+F8 "2" 0 -1100 50 H I C CNN "Solder Joint"
+F9 "SAMSUNG 三星" 0 -700 50 H I C CNN "Manufacturer"
+F10 "扩展库" 0 -900 50 H I C CNN "Library Type"
+F11 "680nF(684) ±10% 6.3V X5R" 0 -900 50 H I C CNN "Library Type"
+$FPLIST
+ *0402*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# sz_jlc_resistor_10KΩ(1002),±1%,0402,C270381
+#
+DEF sz_jlc_resistor_10KΩ(1002),±1%,0402,C270381 U 0 10 N N 1 F N
+F0 "U" 10 70 50 H V L CNN
+F1 "sz_jlc_resistor_10KΩ(1002),±1%,0402,C270381" 50 -100 50 H V L CNN
+F2 "w_smd_resistors:r_0402" 0 -1000 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "C270381" 0 -500 50 H I C CNN "LCSC_Part"
+F5 "10KΩ(1002),±1%,0402,C270381" 50 -200 50 H I L CNN "MFR_Part"
+F6 "电阻_贴片电阻" 0 -600 50 H I C CNN "Second Category"
+F7 "0402" 0 -800 50 H I C CNN "Package"
+F8 "2" 0 -1100 50 H I C CNN "Solder Joint"
+F9 "UniOhm 台湾厚声" 0 -700 50 H I C CNN "Manufacturer"
+F10 "扩展库" 0 -900 50 H I C CNN "Library Type"
+F11 "10KΩ(1002) ±1%" 0 -900 50 H I C CNN "Library Type"
+$FPLIST
+ *0402*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# taobao-components_STM8S103F3
+#
+DEF taobao-components_STM8S103F3 U 0 40 Y Y 1 F N
+F0 "U" 500 -500 50 H V C CNN
+F1 "taobao-components_STM8S103F3" 700 -600 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -550 550 550 -450 0 1 0 f
+X PD4 1 -50 750 200 D 50 50 1 1 B
+X PA3 10 -750 0 200 R 50 50 1 1 B
+X PB5 11 -750 200 200 R 50 50 1 1 B
+X PB4 12 -750 100 200 R 50 50 1 1 B
+X PC3 13 200 -650 200 U 50 50 1 1 B
+X PC4 14 100 -650 200 U 50 50 1 1 B
+X PC5 15 0 -650 200 U 50 50 1 1 B
+X PC6 16 -100 -650 200 U 50 50 1 1 B
+X PC7 17 -200 -650 200 U 50 50 1 1 B
+X PD1 18 250 750 200 D 50 50 1 1 B
+X PD2 19 150 750 200 D 50 50 1 1 B
+X PD5 2 -150 750 200 D 50 50 1 1 B
+X PD3 20 50 750 200 D 50 50 1 1 B
+X PD6 3 -250 750 200 D 50 50 1 1 B
+X NRST 4 750 -150 200 L 50 50 1 1 I
+X PA1 5 -750 -200 200 R 50 50 1 1 B
+X PA2 6 -750 -100 200 R 50 50 1 1 B
+X VSS 7 750 -50 200 L 50 50 1 1 W
+X VCAP 8 750 50 200 L 50 50 1 1 W
+X VDD 9 750 150 200 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library
